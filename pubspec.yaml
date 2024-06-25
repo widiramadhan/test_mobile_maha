@@ -1,0 +1,57 @@
+name: test_it_maha
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  chucker_flutter: ^1.6.3
+  connectivity_plus: ^3.0.2
+  dio: ^5.4.3+1
+  flutter_launcher_icons: ^0.13.1
+
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_screenutil: ^5.5.3+2
+  get: ^4.6.5
+  get_it: ^7.6.0
+  injectable: ^2.1.1
+  skeleton_text: ^3.0.1
+  pull_to_refresh: ^2.0.0
+  toast: ^0.3.0
+  flutter_native_splash: ^2.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.9
+  injectable_generator: ^2.1.5
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_native_splash:
+  color: "#000000"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/images_logo.jpeg"
+  adaptive_icon_background: "#FFFFFF"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  remove_alpha: true
